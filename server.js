@@ -70,7 +70,7 @@ app.delete('/api/users/:id', (req, res, next) => {
 
 
 const port = 3000;
-// app.listen(port, () => {
-//   console.log(`up and running on part ${port}`)
-// })
+app.listen(port, () => {
+  console.log(`up and running on part ${port}`)
+})
 module.exports = app;
